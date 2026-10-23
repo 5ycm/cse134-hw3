@@ -2,3 +2,11 @@
 Brian Maloney
 https://github.com/5ycm/cse134-hw3
 */
+
+body{
+    font-family: comic sans ms, sans-serif;
+    color:darkorange;
+    background-color: black;
+    line-height: 1.5;
+}
+
