@@ -53,7 +53,7 @@ body{
     padding: 1rem;
 
 }
-
+/*Child combinator: selects only the direct children of an element -> vscode autocorrected this and it sounded nicer so.*/
 nav > ul {
     display: flex;
     flex-wrap: wrap;
@@ -71,11 +71,11 @@ footer{
     border-top: 2px solid var(--forest-green);
     margin-top: 2rem;
 }
-
+/*Descendant combinator: selects all ements in a parent element like ancestor descendant{ style} */
 footer p{
     font-size: 0.875rem;
 }
-
+/*Attribute selector: targets the submit button on the contact page, then we give it more padding.*/
 button[type="submit"] {
     padding: 0.5em 1em;
 }
