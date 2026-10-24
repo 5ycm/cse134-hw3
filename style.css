@@ -1,4 +1,77 @@
 /*
 Brian Maloney
-https:github.com/5ycm/cse134-hw3
+https://github.com/5ycm/cse134-hw3
 */
+
+h1, h2, h3{
+    color:var(--forest-green);
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+a{
+    color:white;
+}
+a:hover{
+    text-decoration: none; /*removes underline*/
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 3px solid white;
+}
+
+skill-tag{
+    display:inline-block;
+    border: 1px solid;
+}
+
+:root{
+    --monokai-grey: #272822;
+    --mint-green: #98ff98;
+    --forest-green: forestgreen;
+    --main-font: Verdana, sans-serif;
+    --page-width: 900px;
+}
+
+body{
+
+    font-family: var(--main-font);
+    color: var(--mint-green);
+    background-color: var(--monokai-grey);
+    line-height: 1.5;
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+
+header{
+    border-bottom: 2px solid var(--forest-green);
+}
+
+footer{
+    border-top: 2px solid var(--forest-green);
+    margin-top: 2rem;
+}
+
+footer p{
+    font-size: 0.875rem;
+}
